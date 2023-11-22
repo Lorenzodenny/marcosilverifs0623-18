@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgba(115,33,4,255);
+   
+}
+
+/* fino a 600px */
+@media screen and (max-width: 600px){
+
+body{
+    padding: 5%;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+nav{
+    background-color: rgba(254,247,226,255);
+    border-radius: 160px;
+    padding: 10%;
+}
+
+body > header > nav > div:nth-child(1) > img{
+    width: 20%;
+    margin-right: 5%;
+}
+
+body > header > nav{
+    display: flex;
+    flex-direction: column;
+}
+
+body > header > nav > div:nth-child(1),
+body > header > nav > div:nth-child(2),
+body > header > nav > div:nth-child(3){
+    display: flex;
+    padding: 5%;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+body > header > nav > div:nth-child(1){
+    background-color: rgba(255,223,127,255);
+    border-radius: 50px;
+    padding: 7%;
+    width: 60%;
+    margin-left: 20%;
+    font-weight: bold;
+}
+
+body > header > nav > div:nth-child(2) > p:nth-child(1),
+body > header > nav > div:nth-child(2) > p:nth-child(2),
+body > header > nav > div:nth-child(3) > p:nth-child(1),
+body > header > nav > div:nth-child(3) > p:nth-child(2){
+    border-radius: 50px;
+    background-color: rgba(255,223,127,255);
+    padding: 5%;
+    flex-basis: 35%;
+    text-align: center;
+    font-weight: bold;
+}
+
+body > header > nav > div:nth-child(2) > p:nth-child(1),
+body > header > nav > div:nth-child(3) > p:nth-child(1){
+    margin-right: 5%;
+}
+
+body > header > nav > div:nth-child(2) > p:nth-child(2),
+body > header > nav > div:nth-child(3) > p:nth-child(2){
+    margin-left: 5%;
+}
+
+header{
+    margin: 10% 0;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10%;
+}
+
+.contenitoreTutto{
+    background-color: rgba(254,247,226,255);
+    border-radius: 80px;
+    margin-bottom: 10%;
+}
+
+.contenitoreTutto img{
+    width: 100%;
+    border-radius: 80px 80px 0 0;
+    margin-bottom: 5%;
+}
+
+.insieme{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+
+.grassetto{
+    font-weight: bold;
+}
+
+.paga{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.paga p{
+    background-color:rgba(255,223,127,255);
+    padding: 3%;
+    border-radius: 20px;
+    margin-bottom: 5%;
+}
+
+#ultimaRIga{
+    font-size: 30px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 30px;
+}
+
+h3{
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+
+#ultimaRiga > p{
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 5%;
+}
+
+#ultimaRiga > img{
+    width: 100%;
+}
+
+#ultimaRiga{
+    padding: 9%;
+    background-color:rgba(254,247,226,255) ;
+    border-radius: 50px;
+}
+}
+
+@media screen and (max-width: 900) {
+    #ultimaRIga{
+        font-size: 30px;
+    }
+
+    body{
+        padding: 5%;
+    }
+    
+    header{
+        position: sticky;
+        top: 0;
+    }
+    
+    nav{
+        background-color: rgba(254,247,226,255);
+        border-radius: 160px;
+        padding: 10%;
+    }
+
+    
+    header{
+        margin: 10% 0;
+    }
+    
+    h1{
+        text-align: center;
+        font-weight: bold;
+        font-size: 50px;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 10%;
+    }
+    
+    .contenitoreTutto{
+        background-color: rgba(254,247,226,255);
+        border-radius: 80px;
+        margin-bottom: 10%;
+    }
+    
+    .contenitoreTutto img{
+        width: 100%;
+        border-radius: 80px 80px 0 0;
+        margin-bottom: 5%;
+    }
+    
+    .insieme{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 20px;
+        margin-bottom: 5%;
+    }
+    
+    .grassetto{
+        font-weight: bold;
+    }
+    
+    .paga{
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5%;
+    }
+    
+    .paga p{
+        background-color:rgba(255,223,127,255);
+        padding: 3%;
+        border-radius: 20px;
+        margin-bottom: 5%;
+    }
+
+    h2{
+        text-align: center;
+        margin-bottom: 5%;
+        font-size: 30px;
+    }
+    
+    h3{
+        text-align: left;
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 5%;
+    }
+    
+    #ultimaRiga > p{
+        font-size: 20px;
+        line-height: 1.2;
+        margin-bottom: 5%;
+    }
+    
+    #ultimaRiga > img{
+        width: 100%;
+    }
+    
+    #ultimaRiga{
+        padding: 9%;
+        background-color:rgba(254,247,226,255) ;
+        border-radius: 50px;
+    }
+}
